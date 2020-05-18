@@ -1,0 +1,10 @@
+version: '3.5' # specify docker-compose version
+ 
+# Define the services/ containers to be run
+services:
+ angular: # name of the first service
+  build: frontend # specify the directory of the Dockerfile
+  ports:
+  - "80:80" # specify port mapping
+ 
+  
